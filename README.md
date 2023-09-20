@@ -5,8 +5,9 @@ Debug Redis TimeSeries caching performance
 
 1. pip install -r requirements.txt
 2. setup redis-stack-server (locally or using docker)
-3. run_celery.sh (to start celery worker)
-4. python main.py (to start ingestion tasks)
+3. cd csv & unzip files.zip
+4. run_celery.sh (to start celery worker)
+5. python main.py (to start ingestion tasks)
 
 
 ### write_df performance is bad:
